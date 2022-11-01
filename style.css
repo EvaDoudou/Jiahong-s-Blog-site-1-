@@ -13,14 +13,28 @@ header h1 {
     
 }
 nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: gray;
+}
+/*nav {
+  position: -webkit-sticky;
+  position: sticky;
   text-align: left;
+  background-color: gray;
+  height: 20px;
+}*/
+nav ol {
+  margin: 0px;
+  padding-left: 0px;
 }
 nav li {
   display: inline;
   width: 100%;
   margin-right: 20px;
-  position: sticky;
   left: 0px;
+  
 }
 
 body
@@ -29,6 +43,7 @@ body
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  margin-top: 0px;
 }
 
 .image_shown {
@@ -60,12 +75,14 @@ footer {
   position: fixed;
   bottom: 0px;
   width:100%
+  
 }
 
 footer div {
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
+  background-color: gray;
 }
  
 /*
